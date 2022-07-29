@@ -1,0 +1,1 @@
+export { Rand } from './rand'

@@ -1,0 +1,31 @@
+{
+  "name": "learn-github-workflow",
+  "version": "0.0.1",
+  "description": "test github workflow for ci-cd",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc -p tsconfig.json",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yan-jie/learn-github-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yan-jie/learn-github-workflow/issues"
+  },
+  "homepage": "https://github.com/yan-jie/learn-github-workflow#readme",
+  "dependencies": {
+    "bn.js": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/mocha": "^9.1.1",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
