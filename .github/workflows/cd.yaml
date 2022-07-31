@@ -5,7 +5,6 @@ jobs:
   maybe-release:
     name: release
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     env:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
