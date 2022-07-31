@@ -19,6 +19,9 @@
     "type": "git",
     "url": "git+https://github.com/yan-jie/learn-github-workflow.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
