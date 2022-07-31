@@ -8,6 +8,13 @@
     "build": "tsc -p tsconfig.json",
     "test": "mocha"
   },
+  "files": [
+    "dist",
+    "src",
+    "test",
+    "tsconfig.json",
+    "tsconfig.test.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yan-jie/learn-github-workflow.git"
